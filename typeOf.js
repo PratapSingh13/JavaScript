@@ -6,4 +6,6 @@ const myAge = 25;
 console.log(typeof myAge);
 
 let myAddress = 'Kanpur';
-console.log(typeof myAddress)
+console.log(typeof myAddress);
+myAddress = 'Noida';
+console.log(typeof myAddress);
