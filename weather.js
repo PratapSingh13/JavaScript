@@ -1,4 +1,4 @@
-//A JavaScript program to demonstrate else..if coditions
+//A JavaScript program to find environment changes with seasons
 let season = 'summer';
 
 if(season === 'spring') 
