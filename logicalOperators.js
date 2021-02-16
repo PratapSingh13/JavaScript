@@ -1,3 +1,4 @@
+//A JavaScript program to perform Logical Operators
 let mood = 'sleepy';
 let tirednessLevel = 6;
 if(mood === 'sleepy' && tirednessLevel > 8)
