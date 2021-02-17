@@ -7,10 +7,20 @@ function makeShoppingList(item1='milk', item2='bread', item3='eggs')
 }
 makeShoppingList();
 
-
 /*
 Output-:
 Remember to buy milk
 Remember to buy bread
 Remember to buy eggs
 */
+
+
+
+function greeting (name = 'stranger') 
+{
+  console.log(`Hello, ${name}!`)
+}
+ 
+greeting('Yogendra')                     // Output: Hello, Yogendra!
+greeting()                              // Output: Hello, stranger!
+ 
