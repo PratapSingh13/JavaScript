@@ -29,10 +29,17 @@ Remember to buy butter
 Remember to buy coke
 */
 
-function greeting (name = 'stranger') 
+function greeting(name = 'stranger') 
 {
   console.log(`Hello, ${name}!`)
 }
 greeting('Yogendra')                     // Output: Hello, Yogendra!
 greeting()                              // Output: Hello, stranger!
  
+
+function wish(name) 
+{
+  console.log(`Hello, ${name}!`)
+}
+greeting('Yogendra')                     // Output: Hello, Yogendra!
+greeting()                              // Output: Hello, undefined!
